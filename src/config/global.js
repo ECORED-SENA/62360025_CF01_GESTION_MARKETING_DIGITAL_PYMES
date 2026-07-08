@@ -1,17 +1,26 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.svg',
+    Name: 'Comunicación y gestión de comunidades virtuales',
+    Description:
+      'Este componente desarrolla competencias para gestionar la comunicación digital empresarial mediante redes sociales, abordando la identificación de audiencias, comunicación escrita, interacción con comunidades virtuales, curación de contenidos, automatización de respuestas, optimización de publicaciones y uso estratégico de información digital, con el propósito de fortalecer la relación entre las pymes y sus clientes.',
+    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.svg',
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.png',
       },
       {
         clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.svg',
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.png',
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-3.png',
+      },
+      {
+        clases: ['banner-principal-decorativo-4', 'd-none', 'd-lg-block'],
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-4.png',
       },
     ],
   },
@@ -31,27 +40,187 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo:
+          '<em>Marketing</em> digital y comunicación empresarial en entornos digitales',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo:
+              'Transformación de la comunicación empresarial en medios digitales',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Redes sociales y su importancia para las pymes',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo:
+              'Beneficios del marketing digital en la relación con clientes',
+            hash: 't_1_3',
           },
         ],
       },
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Redes sociales para la gestión empresarial',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Concepto, características y usos de las redes sociales',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Selección de redes sociales según el público objetivo',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo:
+              'Configuración, ajustes y optimización de perfiles empresariales',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo:
+              'Catálogos digitales, difusión y herramientas de interacción',
+            hash: 't_2_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo:
+          'Audiencias, comportamiento del consumidor y comunicación escrita en entornos digitales',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Identificación y segmentación del público objetivo',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Técnicas de análisis del comportamiento del consumidor',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo:
+              'Gestión de relaciones con consumidores en entornos digitales',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Evaluación del consumo de información digital',
+            hash: 't_3_4',
+          },
+          {
+            numero: '3.5',
+            titulo: 'Comunicación escrita aplicada a medios digitales',
+            hash: 't_3_5',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Gestión de comunidades virtuales y contenidos digitales',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Interacción con usuarios y gestión de conversaciones',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Respuestas rápidas, automatización y atención digital',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Bases de datos aplicadas a la comunicación empresarial',
+            hash: 't_4_3',
+          },
+          {
+            numero: '4.4',
+            titulo: 'Curación, agregación y valoración de contenidos',
+            hash: 't_4_4',
+          },
+          {
+            numero: '4.5',
+            titulo: 'Técnicas narrativas para contenidos digitales',
+            hash: 't_4_5',
+          },
+          {
+            numero: '4.6',
+            titulo: 'Planeación, programación y organización de publicaciones',
+            hash: 't_4_6',
+          },
+          {
+            numero: '4.7',
+            titulo:
+              'Construcción de <em>feeds</em> informativos según audiencia',
+            hash: 't_4_7',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo:
+          'Optimización, posicionamiento y análisis de información digital',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Concepto de posicionamiento digital',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Optimización básica de contenidos digitales',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
+            titulo: 'Introducción al SEO aplicado a contenidos',
+            hash: 't_5_3',
+          },
+          {
+            numero: '5.4',
+            titulo: 'Introducción al uso estratégico de pauta digital',
+            hash: 't_5_4',
+          },
+          {
+            numero: '5.5',
+            titulo:
+              'Organización, jerarquización y clasificación de información',
+            hash: 't_5_5',
+          },
+          {
+            numero: '5.6',
+            titulo: 'Validación y uso responsable de datos',
+            hash: 't_5_6',
+          },
+          {
+            numero: '5.7',
+            titulo: 'Introducción al uso de datos en estrategias digitales',
+            hash: 't_5_7',
+          },
+          {
+            numero: '5.8',
+            titulo: 'Fundamentos de análisis de información digital',
+            hash: 't_5_8',
+          },
+        ],
       },
     ],
     subMenu: [
