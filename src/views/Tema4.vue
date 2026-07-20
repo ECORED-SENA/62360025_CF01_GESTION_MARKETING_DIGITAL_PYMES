@@ -112,7 +112,7 @@
                 figure
                   img(src='@/assets/curso/temas/t4/img14.png', alt='').m-auto
               .col-xl.caja-2_p
-                p.mb-0 "Buen día. Gracias por comunicarse con nosotros. Actualmente el producto se encuentra disponible. Si desea información adicional o detalles del proceso de adquisición, con gusto podemos orientarle."
+                p.mb-0 "Buen día. Gracias por comunicarse con nosotros. Actualmente, el producto se encuentra disponible. Si desea información adicional o detalles del proceso de adquisición, con gusto podemos orientarle."
       p.mb-0 Una gestión adecuada de conversaciones implica responder oportunamente, utilizar lenguaje claro, mantener un trato respetuoso y ofrecer información precisa.
       Separador
       #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -390,7 +390,7 @@
             .row(titulo="Consistencia temática").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Mantener unidad en los temas abordados.
             .row(titulo="Equilibrio entre contenidos").ajuste-cajaAcordion.ajuste-vineta
-              p.mb-3 Integrar publicaciones informativas y promocionales
+              p.mb-3 Integrar publicaciones informativas y promocionales.
             .row(titulo="Claridad visual y comunicativa").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Favorecer una experiencia comprensible y organizada.
             .row(titulo="Uniformidad gráfica").ajuste-cajaAcordion.ajuste-vineta

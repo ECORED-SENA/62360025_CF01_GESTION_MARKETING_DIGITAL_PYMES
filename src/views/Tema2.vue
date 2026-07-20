@@ -9,7 +9,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-xl.mb-4.mb-lg-0
           .caja-1(data-aos="fade-right")
-            p.mb-0 Las redes sociales son plataformas digitales diseñadas para facilitar la interacción entre personas, comunidades y organizaciones mediante el intercambio de información, contenidos y experiencias. Inicialmente surgieron como espacios orientados a la comunicación interpersonal; sin embargo, con el paso del tiempo evolucionaron hasta convertirse en herramientas estratégicas utilizadas por empresas, instituciones y emprendimientos para fortalecer su presencia digital y establecer relaciones con diferentes públicos.
+            p.mb-0 Las redes sociales son plataformas digitales diseñadas para facilitar la interacción entre personas, comunidades y organizaciones mediante el intercambio de información, contenidos y experiencias. Inicialmente, surgieron como espacios orientados a la comunicación interpersonal; sin embargo, con el paso del tiempo evolucionaron hasta convertirse en herramientas estratégicas utilizadas por empresas, instituciones y emprendimientos para fortalecer su presencia digital y establecer relaciones con diferentes públicos.
         .col-xl-auto.col-md-9.mb-4.mb-lg-0(data-aos="zoom-in")
           figure
             img(src='@/assets/curso/temas/t2/img1.jpg', alt='').m-auto
