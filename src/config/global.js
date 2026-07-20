@@ -265,14 +265,51 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Alcance digital',
+      significado:
+        'es el equivalente moderno a estar en la cima de la colina más alta con un megáfono, solo que la colina es internet y el megáfono es tu estrategia digital. Es un método que permite a las pequeñas empresas trascender sus límites físicos y llegar a una audiencia global sin necesidad de presupuestos exorbitantes.',
+    },
+    {
+      termino: 'Audiencias en marketing',
+      significado:
+        'se refieren al conjunto específico de personas o grupos a quienes una marca dirige sus mensajes. Esta definición va más allá de un público general; implica conocer características demográficas, intereses, comportamientos y necesidades particulares.',
+    },
+    {
+      termino: 'Bases de datos',
+      significado:
+        'es una herramienta que almacena información perteneciente a un mismo contexto, organizada y sistematizada lógicamente para su posterior recuperación, análisis o transmisión. Una biblioteca, un listado completo de clientes o el historial de las páginas visitadas en un navegador web son algunos ejemplos de bases de datos.',
+    },
+    {
+      termino: 'Calendario editorial',
+      significado:
+        'es la herramienta que te permite establecer las estrategias de contenido para tu blog, ya que reúne el flujo de trabajo en cuanto a tipos de contenido, autores y fechas de publicación.',
+    },
+    {
+      termino: 'Feed digital',
+      significado:
+        'se refiere a la corriente de contenido que se presenta a un usuario cuando navega por la plataforma. Es una secuencia de publicaciones, actualizaciones y actividades de otros usuarios, páginas o cuentas que están conectadas o seguidas por el usuario.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Camacho, K. (2026, 24 de marzo). Qué son las audiencias en marketing + ejemplos reales. DesignPlus.',
+      link: 'https://designplus.co/blog/marketing-digital/que-son-audiencias-marketing/',
+    },
+    {
+      referencia:
+        'Gatward, D. (2024, 27 de marzo). ¿Qué es el alcance digital y cómo puedes implementarlo? Counting Stars.',
+      link: 'https://www.counting-stars.co.uk/what-is-digital-outreach-how-can-you-implement-it/',
+    },
+    {
+      referencia:
+        'Londoño, P. (2025, 11 de septiembre). Qué es un calendario editorial y cómo crearlo (+ plantilla). HubSpot.',
+      link: 'https://blog.hubspot.es/website/calendario-editorial-para-tu-blog',
+    },
+    {
+      referencia:
+        'MSMK. (2024, 9 de septiembre). ¿Qué es el feed en RRSS? MSMK University.',
+      link: 'https://msmk.university/que-es-el-feed-en-rrss-msmk-university/',
     },
   ],
   creditos: [
