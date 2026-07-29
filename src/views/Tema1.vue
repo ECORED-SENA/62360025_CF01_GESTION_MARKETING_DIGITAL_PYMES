@@ -422,7 +422,7 @@
       p.mb-5 A continuación, se presenta una explicación sobre las principales características de las redes sociales y su aporte a la comunicación empresarial, destacando cómo estas herramientas fortalecen la interacción con las audiencias y contribuyen al posicionamiento estratégico de las organizaciones en los entornos digitales.
       figure(data-aos="zoom-in").mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/5D0RrzO3Nl0?si=ekZVBooGwYhK-O7R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Video. Redes sociales: herramientas estratégicas para la comunicación empresarial
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/t1/img35.svg')
