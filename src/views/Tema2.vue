@@ -157,7 +157,7 @@
               .row.justify-content-center.align-items-center
                 .col-xl-6.mb-4
                   h4 Actualizar información relevante
-                  p.mb-0 Mantener vigentes los contenidos y datos de interés para la audiencia, evitando información desactualizada o confusa. La actualización periódica favorece la credibilidad institucional, facilita la toma de decisiones de los usuarios y promueve.
+                  p.mb-0 Mantener vigentes los contenidos y datos de interés para la audiencia, evitando información desactualizada o confusa. La actualización periódica favorece la credibilidad institucional, facilita la toma de decisiones de los usuarios y promueve la participación activa y el compromiso de la comunidad.
                 .col-xl-6
                   figure
                     img(src='@/assets/curso/temas/t2/img14.png', alt='' style="max-width: 500px").m-auto
@@ -210,7 +210,7 @@
               span.fa-li
                 i.fas.fa-check-circle
               | 
-              p.mb-0 #[b Tipo de contenido:] Formatos visuales, conversacionales, informativos o audiovisuales.
+              p.mb-0 #[b Tipo de contenido:] formatos visuales, conversacionales, informativos o audiovisuales.
       .caja-3.mb-5(data-aos="zoom-in")
         .row.align-items-center
           .col-xl.order-2.order-lg-1.caja-2_p

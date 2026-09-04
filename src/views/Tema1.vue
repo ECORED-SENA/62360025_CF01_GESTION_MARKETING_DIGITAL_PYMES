@@ -2,11 +2,11 @@
   .curso-main-container.pb-3
     BannerInterno
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-      .titulo-principal.color-acento-contenido
+      .titulo-principal.color-acento-contenido(data-aos="flip-up")
         .titulo-principal__numero
           span 1
         h1 #[i Marketing] digital y comunicación empresarial en entornos digitales
-      p.mb-3 En el contexto empresarial actual, la transformación tecnológica ha generado cambios significativos en la manera en que las organizaciones se comunican con sus clientes, promocionan sus productos y construyen relaciones comerciales sostenibles. La incorporación de herramientas digitales ha modificado no solo los canales de comunicación, sino también la forma en que las empresas comprenden las necesidades del mercado y responden a ellas. Dentro de este escenario, el #[i marketing] digital se ha consolidado como una estrategia fundamental para fortalecer la presencia empresarial en entornos digitales y facilitar la interacción con diferentes públicos.
+      p.mb-3(data-aos="fade-right") En el contexto empresarial actual, la transformación tecnológica ha generado cambios significativos en la manera en que las organizaciones se comunican con sus clientes, promocionan sus productos y construyen relaciones comerciales sostenibles. La incorporación de herramientas digitales ha modificado no solo los canales de comunicación, sino también la forma en que las empresas comprenden las necesidades del mercado y responden a ellas. Dentro de este escenario, el #[i marketing] digital se ha consolidado como una estrategia fundamental para fortalecer la presencia empresarial en entornos digitales y facilitar la interacción con diferentes públicos.
       .row.justify-content-center.align-items-center.mb-5
         .col-xl.mb-4.mb-lg-0
           .caja-2(data-aos="zoom-in").mb-3
@@ -16,7 +16,7 @@
                   img(src='@/assets/curso/temas/t1/img1.jpg', alt='').m-auto
               .col-xl.caja-2_p
                 p.mb-0 El #[i marketing] digital puede definirse como el conjunto de estrategias, acciones y herramientas orientadas a promocionar productos, servicios o marcas mediante medios digitales, utilizando internet y diversas plataformas tecnológicas para establecer procesos de comunicación, atracción, interacción y conversión con audiencias específicas. Su propósito no se limita a la promoción comercial; también busca fortalecer la relación entre las organizaciones y sus clientes, mejorar la visibilidad de la marca y facilitar el acceso a la información mediante experiencias comunicativas más cercanas y personalizadas.
-          p.mb-0 A diferencia de enfoques comerciales tradicionales, el #[i marketing] digital permite una comunicación más dinámica y participativa. Mientras que los medios convencionales suelen transmitir mensajes de manera unidireccional, donde la empresa comunica y el consumidor recibe la información, los entornos digitales favorecen una comunicación bidireccional, en la que los usuarios pueden interactuar activamente mediante comentarios, mensajes, reacciones, consultas o recomendaciones. Esta característica transforma la relación entre empresa y consumidor, haciendo que el proceso comunicativo sea más inmediato, flexible y orientado a la experiencia del usuario. Para comprender mejor estas diferencias, se presenta el siguiente cuadro comparativo:
+          p.mb-0(data-aos="fade-right") A diferencia de enfoques comerciales tradicionales, el #[i marketing] digital permite una comunicación más dinámica y participativa. Mientras que los medios convencionales suelen transmitir mensajes de manera unidireccional, donde la empresa comunica y el consumidor recibe la información, los entornos digitales favorecen una comunicación bidireccional, en la que los usuarios pueden interactuar activamente mediante comentarios, mensajes, reacciones, consultas o recomendaciones. Esta característica transforma la relación entre empresa y consumidor, haciendo que el proceso comunicativo sea más inmediato, flexible y orientado a la experiencia del usuario. Para comprender mejor estas diferencias, se presenta el siguiente cuadro comparativo:
         .col-xl-auto.col-md-9(data-aos="fade-left")
           figure
             img(src='@/assets/curso/temas/t1/img2.png', alt='').m-auto
@@ -707,7 +707,7 @@
             .col
               h4.mb-4 Pódcast
               TarjetaAudio.color-acento-contenido.mb-4(
-                  texto="Aportes del <em>marketing</em> digital para las pequeñas y medianas empresas (pymes)"
+                  texto="<i>Marketing</i> para pymes en redes sociales"
                   :audio="audio1"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )

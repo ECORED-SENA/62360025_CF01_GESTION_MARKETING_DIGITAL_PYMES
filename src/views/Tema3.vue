@@ -239,7 +239,7 @@
                 figure.mb-4(data-aos="fade-right")
                   img(src='@/assets/curso/temas/t3/img20.svg', alt="" style="max-width: 90px").m-auto
               h4.text-center Mensaje incorrecto: 
-              p.mb-0.text-center "Los promociones está disponible hasta mañana."
+              p.mb-0.text-center "Las promociones están disponible hasta mañana."
         .col-xl-4.col-md-9(data-aos="zoom-in")
           .caja-8.caja-8-color.h-100
             .row.justify-content-center.mb-3
